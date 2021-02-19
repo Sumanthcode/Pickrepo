@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Advisor">
+	<listeners>
+		<listener class-name=""></listener>
+	</listeners>
+	<test thread-count="5" name="Welcome">
+		<parameter name="Browser" value="chrome" />
+		<parameter name="Url"
+			value="https://stage-web.pickright.co.in/" />
+
+		<packages>
+			<package name=""></package>
+		</packages>
+		<groups>
+			<run>
+				<include name=""></include>
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="AdvisorTest.A_ValidatePublishEquityOption">
+				<methods>
+					<include name=""></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

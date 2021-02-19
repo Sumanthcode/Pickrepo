@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Investor" duration-ms="40903" started-at="2021-02-01T10:43:41 IST" finished-at="2021-02-01T10:44:21 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="40903" started-at="2021-02-01T10:43:41 IST" finished-at="2021-02-01T10:44:21 IST">
+      <class name="InvestorTest.ZerodaLogin">
+        <test-method status="PASS" signature="login()[pri:0, instance:InvestorTest.ZerodaLogin@4b952a2d]" name="login" duration-ms="40794" started-at="2021-02-01T10:43:41 IST" finished-at="2021-02-01T10:44:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- InvestorTest.ZerodaLogin -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Investor -->
+</testng-results>

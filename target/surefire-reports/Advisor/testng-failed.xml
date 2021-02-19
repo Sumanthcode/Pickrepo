@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Advisor]">
+  <test thread-count="2" verbose="0" name="Welcome(failed)">
+    <parameter name="Url" value="https://stage-web.pickright.co.in/"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="AdvisorTest.A_ValidatePublishEquityFutureCall">
+        <methods>
+          <include name="validateCreatedAwaitingCallDisplayed"/>
+          <include name="validateSuccessfullCreationOfCall1"/>
+          <include name="validateEditCall"/>
+          <include name="validateEquityFutureTitle"/>
+          <include name="initiateBrowser"/>
+          <include name="validateCreateFutureCashCallTitle"/>
+        </methods>
+      </class> <!-- AdvisorTest.A_ValidatePublishEquityFutureCall -->
+    </classes>
+  </test> <!-- Welcome(failed) -->
+</suite> <!-- Failed suite [Advisor] -->
